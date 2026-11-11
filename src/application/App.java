@@ -19,7 +19,7 @@ public class App {
 
 
 
-        list.removeIf(Product :: staticProductPredicate);
+        list.removeIf(Product :: nonStaticProductPredicate);
 
         for (Product p : list){
             System.out.println(p);
