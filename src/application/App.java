@@ -18,7 +18,7 @@ public class App {
         list.add(new Product("HD case", 80.90));
 
 
-        list.forEach(Product :: staticPriceUpdate);
+        list.forEach(Product :: nonStaticPriceUpdate);
 
         list.forEach(System.out::println);
 
